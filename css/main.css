@@ -141,9 +141,14 @@ img {
 
 .menu {
   position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(20px);
   padding-top: 20px;
@@ -154,6 +159,16 @@ img {
   .menu {
     width: 320px;
   }
+}
+
+.menu__nav {
+  text-align: center;
+  width: 100%;
+}
+
+.menu__logo {
+  display: inline-block;
+  margin-bottom: 40px;
 }
 
 .menu__list {
@@ -230,5 +245,21 @@ img {
   text-transform: uppercase;
   color: var(--primary-accent-color);
   padding: 10px 20px;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__item + .social__item {
+  margin-left: 20px;
+}
+
+.social__icon {
+  width: 30px;
+  height: 30px;
+  fill: var(--secondary-text-color);
 }
 /*# sourceMappingURL=main.css.map */
