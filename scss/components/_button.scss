@@ -1,0 +1,47 @@
+.btn {
+	background-color: transparent;
+	border: 2px solid #FFFFFF;
+}
+
+// --- HERO BUTTON ---
+
+.hero__btn {
+	position: relative;
+	
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(17 / 14);
+	letter-spacing: 0.045em;
+	text-transform: uppercase;
+
+	color: var(--primary-accent-color);
+
+	padding: 20px 60px 20px 30px;
+}
+
+.decor {
+	position: absolute;
+	display: inline-block;
+	width: 65px;
+	height: 2px;
+	left: 175px;
+	top: 50%;
+	transform: translateY(-50%);
+
+	background-color:var(--primary-accent-color);
+}
+
+// --- HEADER BUTTON ---
+
+.header__btn {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(17 / 14);
+	letter-spacing: 0.045em;
+	text-transform: uppercase;
+
+	color: var(--primary-accent-color);
+
+	padding: 10px 20px;
+
+}

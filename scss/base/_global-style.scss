@@ -1,6 +1,10 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Gilroy, sans-serif;
-	background-color: var(--primary-background-color);
+	background-color: #ffffff;
 	color: var(--primary-text-color);
 }
 
