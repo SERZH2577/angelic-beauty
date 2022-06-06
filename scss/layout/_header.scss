@@ -5,6 +5,7 @@
 	
 	padding-top: 20px;
 	padding-bottom: 30px;
+	z-index: 2;
 }
 
 .header__container {	
@@ -26,10 +27,11 @@
 	background-color: #ffffff;
 }
 
-.header__brand {
-	font-weight: 500;
-font-size: 18px;
-line-height: calc(21 / 18);
+// .header__brand {
+// 	font-weight: 800;
+// 	font-size: 18px;
+// 	line-height: calc(21 / 18);
+// 	text-transform: uppercase;
 
-color: var(--secondary-text-color);
-}
+// 	color: var(--secondary-text-color);
+// }
