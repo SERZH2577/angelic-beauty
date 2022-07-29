@@ -8,10 +8,11 @@
 	z-index: 2;
 }
 
-.header__container {	
+.header__container {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 
 	width: 100%;
 
@@ -22,10 +23,15 @@
 
 .burg-btn {
 	display: inline-block;
+	
 	width: 35px;
 	height: 24px;
 	background-color: #ffffff;
 }
+
+// .burger {
+// 	align-items: flex-start;
+// }
 
 // .header__brand {
 // 	font-weight: 800;
