@@ -140,9 +140,13 @@ img {
   justify-content: center;
   align-content: space-between;
   top: 0;
-  left: -90%;
+  left: 0;
   width: 100%;
   height: 100%;
+  transform: translateX(-100%);
+  transition-duration: transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 3;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(20px);
@@ -155,7 +159,12 @@ img {
   }
 }
 
+.menu-open .menu {
+  transform: translateX(0);
+}
+
 .menu__nav {
+  position: relative;
   text-align: center;
   width: 100%;
 }
@@ -206,16 +215,22 @@ img {
 
 .burger__icon {
   position: absolute;
+  left: 10px;
   fill: #ffffff;
   width: 30px;
   height: 30px;
+  cursor: pointer;
+}
+
+.btn-cross {
+  z-index: 4;
 }
 
 .burger__place {
   width: 30px;
 }
 
-.burger-hidden {
+.is-hidden {
   visibility: hidden;
 }
 
